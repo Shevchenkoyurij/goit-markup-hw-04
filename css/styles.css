@@ -31,6 +31,7 @@ img {
   --new-accent: #757575;
   --pimary-bg-color: #ffffff;
   --bgc-footer:#2F303A;
+  --bg-transparency: rgba(47, 48, 58, 0.8);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -84,13 +85,21 @@ line-height: 31px;
 
 }
 
+/* Фоновая картинка с людьми  */
 
 .top-best {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: grey;
+  background-image: linear-gradient(to right, var(--bg-transparency), var(--bg-transparency)), 
+  url(../images/Headerimg.jpg);
+  background-position: center;
   text-align: center;
  
 }
@@ -98,7 +107,7 @@ line-height: 31px;
 .best {
   margin-top: 0px;
   margin-bottom: 46px;
-  background-color: grey;
+  /* background-color: grey; */
 
     /* Шрифт */
   font-family: Roboto;
