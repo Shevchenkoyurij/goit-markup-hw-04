@@ -168,6 +168,16 @@ border-radius: 4px;
   list-style: none;
   
 }
+/* .degris::before{
+  display: block;
+  content: "";
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-image: url(../images/Vector1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
 
 .function .degris {
   padding-top: 94px;
@@ -296,6 +306,7 @@ padding-bottom: 94px;
   border-radius: 50%;
 
   background-color: var(--new-accent);
+ 
 }
 
 .icon-team-social:hover,
@@ -476,14 +487,25 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: inline-block;
   letter-spacing: 0.06em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   text-align: center;
+  cursor: pointer;
 }
+.button-primary::after{
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  
+  margin-right: 8px;
+ 
+  background-size: ;
 
+  background-image: url("../images/iconsend.png");
+}
 
 
 
@@ -736,6 +758,16 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 }
+/* .auth-nav .link::before{
+  display: inline-block;
+  content: "";
+  height: 11.2px;
+  width: 16px;
+  background-image: url(../images/envelope.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 .site-nav {
   display: flex;
   margin-left: 85px;
@@ -876,5 +908,14 @@ color: #2196f3;
 }
 .linke:focus {
   color: #ffffff;
-  }
-    
+}
+ /* .label::befor{
+display: inline-block;
+height: 50px;
+width: 50px;
+background-image: url("../images/instagram2.png");
+background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: tomato;
+  } */
