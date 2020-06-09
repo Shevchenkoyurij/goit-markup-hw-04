@@ -74,6 +74,17 @@ line-height: 31px;
         color: #000000;
       }
       
+.envelope {
+    /* box-sizing: border-box; */
+  /* margin-right: 10px; */
+  /* color: #757575; */
+  /* background-color: tomato ; */
+}
+
+
+
+
+
 .container {
   margin-left: auto;
   margin-right: auto;
