@@ -24,7 +24,6 @@ img {
 
 
 :root {
-  
   --primary-text-color: #212121;
   --page-hero-text: #212121;
   --main-accent: #2196f3;
@@ -39,7 +38,7 @@ body {
   /* тимчасовий колір*/
 }
 .page-header {
-  width: 1600px;
+  /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -806,16 +805,20 @@ color: #2196f3;
 color:  #ffffff;
 }
 .envelope {
-    margin-right: 10px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 .envelope:hover, .envelope:focus {
     fill: currentColor;
+}
+.smartphone {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .smartphone:hover, .smartphone:focus {
     fill: currentColor;
 } 
-
 
 
 
