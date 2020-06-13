@@ -300,6 +300,23 @@ padding-bottom: 94px;
   color: var(--font-primary-color);
 }
 
+
+.item{
+  cursor: pointer;
+}
+.item:hover, .item:focus{
+  background-color: :var;
+
+}
+
+
+.icon-socials{
+  fill:tomato
+}
+.icon-socials:hover{
+  fill: violet;
+}
+
 .team-social {
 
 
@@ -316,7 +333,7 @@ padding-bottom: 94px;
 }
 
 .icon-team-social {
-  fill:#AFB1B8;
+  
   display: block;
   width: 44px;
   height: 44px;
@@ -342,11 +359,12 @@ padding-bottom: 94px;
 }
 
 .footer {
-  margin-top: 94px;
+  
+  /* margin-top: 94px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 48px;
-  padding-bottom: 28px;
+  padding-bottom: 28px; */
   align-items: baseline;
   justify-content: space-between;
   display: flex;
@@ -884,11 +902,18 @@ Roboto
   display: flex;
   justify-content: space-evenly;
 }
-
-.icon:hover,
-.icon:focus {
-  color: var(--pimary-bg-color);
-  background-color: var(--main-accent);
+.icon{
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.icon:hover, .icon:focus {
+  border: 1px solid var(--main-accent);
+  --color1: var(--main-accent);
+  color: var(--main-accent);
+  
 }
 
 .logo3 {
@@ -936,13 +961,13 @@ line-height: 16px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.linke { 
+.social-item{ 
 color: #ffffff;
 }
-.linke:hover { 
+.social-item:hover { 
 color: #2196f3;
 }
-.linke:focus {
+.social-item:focus {
   color: #ffffff;
 }
  /* .label::befor{
