@@ -31,6 +31,7 @@ img {
   --pimary-bg-color: #ffffff;
   --bgc-footer:#2F303A;
   --bg-transparency: rgba(47, 48, 58, 0.8);
+  --secondary-bg-color: #F5F4FA;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -160,11 +161,9 @@ border-radius: 4px;
   margin-top: 30;
   margin-bottom: 0;
 }
-/* .combo .function {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  border-bottom: 1px solid #ECECEC;
-} */
+.combo .function {
+   /* outline: 3px solid blue; */
+}
 
 .function {
   margin-right: auto;
@@ -179,17 +178,6 @@ border-radius: 4px;
   list-style: none;
   
 }
-/* .degris::before{
-  display: block;
-  content: "";
-  height: 70px;
-  width: 70px;
-  background-position: center;
-  background-image: url(../images/Vector1.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
-
 .function .degris {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -212,6 +200,12 @@ border-radius: 4px;
 .function .degris + .degris {
     margin-left: 30px;  
 }
+
+
+
+
+
+
 /* Применится ко всем абзацам на странице */
 p {
   font-size: 16px;
@@ -244,9 +238,16 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 }
+.feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px; 
+    border-radius: 4px;
+    background-color: var(--secondary-bg-color);
 
-
-
+}
 
 /* Team css options */
 .team-bgc {
@@ -300,10 +301,14 @@ padding-bottom: 94px;
 }
 
 .team-social {
+
+
+
   display: flex;
   justify-content: center;
   padding-left:  32px;
   padding-right: 32px;
+
 }
 
 .team-social .item:not(:last-child) {
@@ -311,18 +316,21 @@ padding-bottom: 94px;
 }
 
 .icon-team-social {
+  fill:#AFB1B8;
   display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
-  background-color: var(--new-accent);
  
 }
+
+
+
 
 .icon-team-social:hover,
 .icon-team-social:focus {
   background-color: var(--main-accent);
+  fill: white;
 }
 
 .footer-container {
@@ -628,7 +636,7 @@ text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
 
-  color: var(--secondary-color-text);
+  color: var(--pimary-bg-color);
   background: rgba(47, 48, 58, 0.8);
   font-weight: bold;
   font-size: 14px;
@@ -638,6 +646,7 @@ text-align: center;
   text-align: center;
 }
 .product-item {
+  position: relative;
   display: block;
 }
 
