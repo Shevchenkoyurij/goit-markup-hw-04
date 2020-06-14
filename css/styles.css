@@ -355,7 +355,7 @@ padding-bottom: 94px;
 
 .page-footer{
   padding-top: 25px;
-  margin-top: 100px;
+  margin-top: 94px;
   background-color: #2F303A;
 }
 
@@ -398,57 +398,6 @@ color: var(--main-accent);
 }
 
 
-.button-primary {
-  padding: 10px 32px;
-
-  display: inline-block;
-  border: 1px solid transparent;
-  min-width: 200px;
-  min-height: 50px;
-
-  color: #FFFFFF;
-  background-color: #2196f3;
-  text-decoration: none;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  text-align: center;
-  cursor: pointer;
-}
-.button-primary::after{
-  display: inline-block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  
-  margin-right: 8px;
- 
-  background-size: ;
-
-  background-image: url("../images/iconsend.png");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .doing {
   padding-top: 94px;
@@ -472,18 +421,6 @@ line-height: 42px;
 text-align: center;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Страница студия*/
@@ -837,27 +774,32 @@ list-style: none;
   text-align: center;
 
 }
-.join-in{
-margin-left: 0px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-}
+
 
 .section{
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.join-in> .label{
+display: block;
+margin-top: auto;
+margin-bottom: 21px;
+color:#FFFFFF;
+text-align: left;
 
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 
-
-.join- .item:hover {
-    --color3: var(--primary-white-color);
-    background: var(--accent-color);
 }
-  background-color: var(--main-accent);
+.join-in{
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
 }
 
 .fototer-contacts{
@@ -903,17 +845,7 @@ line-height: 24px;
 
 }
 
-.join-in> .label{
-display: block;
-margin-top: auto;
-margin-bottom: 21px;
-color:#FFFFFF;
 
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
-}
 
 .subscribe .label {
   display: block;
@@ -946,53 +878,77 @@ text-transform: uppercase;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social-links {
-  margin-top: 21px;
-  margin-bottom: 0;
-    
-}
-
 .social-links {
   display: flex;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  padding-inline-start: 0px;
+  
+  /* width: 44px;
+  height: 44px; */
 }
-  /* padding-left: 0px;
+  padding-left: 0px;
   display: flex;
-  justify-content: center; */
+  justify-content: center;
 }
 
 .social-item.footer {
-    /* background: rgba(255, 255, 255, 0.1); */
+  
+  background: rgba(255, 255, 255, 0.1);
+  
 }
 
 .social-item {
+  align-items: center;
   margin-right: 10px;
   display: flex;
   justify-content: center;
   cursor: pointer;
-  background-color: rgb(47, 28, 160);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
+.button-icon{
+  display: flex;
+  padding: 0;
+  border: none;
+  
+--color1: var(--pimary-bg-color);
+}
+.social-item:hover{
+  background-color: #2196F3;
+}
 
+.button-primary {
+  padding-top: 10px;
+  padding-left: 29px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 
+  display: inline-block;
+  border: 1px solid transparent;
+  min-width: 200px;
+  min-height: 50px;
 
+  color: #FFFFFF;
+  background-color: #2196f3;
+  text-decoration: none;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
+  text-align: center;
+  cursor: pointer;
+}
+
+.lajk{
+  position: center;
+ 
+}
 
 
